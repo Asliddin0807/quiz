@@ -6,7 +6,7 @@ const helmet = require('helmet')
 const passport = require('passport') 
 const session = require('express-session')
 
-const Dbconnect = require("./config/dbConnect")
+const { Dbconnect } = require("./config/dbConnect")
 const userRoute = require("./routes/user")
 const quizRoute = require("./routes/quiz")
 const scoreRoute = require("./routes/score")
