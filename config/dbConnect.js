@@ -2,7 +2,7 @@ const mongoose = require("mongoose")
 
 const Dbconnect = async () => {
     mongoose.set("strictQuery",false)
-    await mongoose.connect("mongodb+srv://ASl:asliddin123@cluster0.vid3jua.mongodb.net/?retryWrites=true&w=majority")
+    await mongoose.connect("mongodb+srv://asliddin:asliddin123@atlascluster.k5lmz3l.mongodb.net/?retryWrites=true&w=majority")
     .then(()=>{
         console.log("connect to mongodb");
     })
