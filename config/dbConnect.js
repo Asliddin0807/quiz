@@ -11,4 +11,4 @@ const Dbconnect = async () => {
     })
 }
 
-module.exports = {Dbconnect}
+module.exports = { Dbconnect }
